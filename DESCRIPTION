@@ -1,0 +1,25 @@
+Package: ScreamDetect
+Title: The package includes custom made functions for the detection of pig screams.
+Version: 1.0.0.0000
+Authors@R: 
+    person("Tjard", "Bergmann", , "tjard.bergmann@tiho-hannover.de", role = c("aut", "cre"),
+           comment = c(ORCID = "0000-0002-5292-6193"))
+Description: This package includes 12 functions that are essential for identifying pig screams from stable video recordings.
+License: CC BY 4.0
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.2
+Imports: 
+    base,
+    devtools,
+    fs,
+    monitoR,
+    pacman,
+    readxl,
+    rstudioapi,
+    seewave,
+    stringr,
+    TAF,
+    taskscheduleR,
+    tuneR,
+    xlsx
