@@ -13,7 +13,6 @@ Imports:
     base,
     devtools,
     fs,
-    monitoR,
     pacman,
     readxl,
     rstudioapi,

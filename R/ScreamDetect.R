@@ -64,7 +64,6 @@ ScreamDetect <-function(path){
   pacman::p_load(base,              #functions(list.files,sub,file.path,dir.create,print,paste0,format,as.POSIX,Sys.Date,options,dput,dget): Basic data processing functions
                  fs,                #functions(fs::dir_ls): Find and list files of a specific type (faster than list.files)
                  ggplot2,
-                 monitoR,           #functions(makeCorTemplate,combineCorTemplates,corMatch,findPeaks,getDetections,viewSpec): Filter false positive call detections
                  RDCOMClient,       #function(COMCreate): Send outlook email messages
                  readxl,            #function(read_excel): Reads excel files
                  seewave,           #functions(spectro, fir): Audiodata analysis
