@@ -17,5 +17,5 @@ Title ScreamDetect
 }
 \examples{
 ScreamDetect("path_to_R_script")
-ScreamDetect("C:/Users/tjard/OneDrive/Desktop/PSD/")
+ScreamDetect("C:/Users/tjard/OneDrive/Desktop/ScreamDetect/")
 }

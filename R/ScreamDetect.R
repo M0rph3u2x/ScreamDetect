@@ -6,7 +6,7 @@
 #' @export
 #'
 #' @examples ScreamDetect("path_to_R_script")
-#' @examples ScreamDetect("C:/Users/tjard/OneDrive/Desktop/PSD/")
+#' @examples ScreamDetect("C:/Users/tjard/OneDrive/Desktop/ScreamDetect/")
 ScreamDetect <-function(path){
 
   # 1) Define paths for R-Script -------------------------------------------------
@@ -63,7 +63,8 @@ ScreamDetect <-function(path){
   #Install and/or load all necessary packages via package manager "pacman"
   pacman::p_load(base,              #functions(list.files,sub,file.path,dir.create,print,paste0,format,as.POSIX,Sys.Date,options,dput,dget): Basic data processing functions
                  fs,                #functions(fs::dir_ls): Find and list files of a specific type (faster than list.files)
-                 ggplot2,
+                 ggplot2,           #function(ggplot): Visualization of data
+                 monitoR,           #function(viewSpec): Create Sonogram of call
                  RDCOMClient,       #function(COMCreate): Send outlook email messages
                  readxl,            #function(read_excel): Reads excel files
                  seewave,           #functions(spectro, fir): Audiodata analysis
